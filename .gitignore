@@ -1,0 +1,20 @@
+
+# Ignore all, then add directories adn files with extension
+#   workaround to ignore executables (file without extension)
+*
+!*.*
+!*/
+
+
+.*.swp
+*.swp
+*.dSYM
+*.bin
+*.o
+*.obj
+*.exe
+a.out
+.sconsign.dblite
+.idea/
+.*
+*~
